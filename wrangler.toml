@@ -5,7 +5,7 @@ workers_dev = true
 
 [observability]
 [observability.logs]
-enabled = false
+enabled = true
 invocation_logs = true
 # After testing, add a custom domain or route in Cloudflare, for example:
 routes = [
