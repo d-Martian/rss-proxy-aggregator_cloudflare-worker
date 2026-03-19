@@ -1,0 +1,9 @@
+name = "xmrdance-rss-proxy"
+main = "src/index.js"
+compatibility_date = "2026-03-19"
+workers_dev = true
+
+# After testing, add a custom domain or route in Cloudflare, for example:
+# routes = [
+#   { pattern = "rss.xmrdance.trade/*", zone_name = "xmrdance.trade" }
+# ]
