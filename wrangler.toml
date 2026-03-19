@@ -3,7 +3,11 @@ main = "src/index.js"
 compatibility_date = "2026-03-19"
 workers_dev = true
 
+[observability]
+[observability.logs]
+enabled = false
+invocation_logs = true
 # After testing, add a custom domain or route in Cloudflare, for example:
-# routes = [
-#   { pattern = "rss.xmrdance.trade/*", zone_name = "xmrdance.trade" }
-# ]
+routes = [
+   { pattern = "rss.xmrdance.trade/*", zone_name = "xmrdance.trade" }
+]
