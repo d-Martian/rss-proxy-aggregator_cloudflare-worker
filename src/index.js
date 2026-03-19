@@ -24,6 +24,7 @@ const ALLOWED_ORIGINS = new Set([
   "https://d-martian.github.io",
   "https://xmrdance.trade",
   "https://www.xmrdance.trade",
+  "https://xmrdance.trade",
   "http://localhost:8787",
   "http://127.0.0.1:8787",
   "http://localhost:8000",
